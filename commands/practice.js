@@ -33,6 +33,7 @@ module.exports ={
             var timeRow = row.time;
             let drop = 'none';
 
+            var xpchance = Math.ceil(Math.random() * 10);
                             
             if(activity == 'practicing'){
                 return message.reply('you are already practicing!');
